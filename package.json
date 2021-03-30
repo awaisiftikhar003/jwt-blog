@@ -1,0 +1,19 @@
+{
+  "name": "jwt-blog",
+  "version": "1.0.0",
+  "description": "This repo is used to demonstrate the usage of JWT.\n For more details visit:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Awais Iftikhar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7"
+  }
+}
